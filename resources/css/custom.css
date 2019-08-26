@@ -4,12 +4,12 @@ html, body {
   line-height: 1.86;
   -ms-overflow-style: none;
   overflow: -moz-scrollbars-none;
-  text-transform: lowercase;
+  text-transform: none;
 }
 ::-webkit-scrollbar {
   display: none;
 }
-/* large diveces */
+/* large devices */
 @media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
   html, body {
     text-align: justify;
@@ -18,7 +18,7 @@ html, body {
     margin-top: -38px;
   }
 }
-/* large diveces retina display */
+/* large devices retina display */
 @media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
   html, body {
     text-align: justify;
@@ -28,7 +28,7 @@ html, body {
   }
 }
 
-/* small diveces including landscape modes */
+/* small devices including landscape modes */
 @media (max-width:320px) {
   .sm-device-mar-top {
     margin-top: 25px;
