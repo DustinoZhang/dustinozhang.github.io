@@ -21,6 +21,10 @@
   color: #53AD68;
 }
 
+.day-time strong {
+  color: #53AD68;
+}
+
 /* night mode text colors */
 .night-time {
   background-color: #0f0f0f;
@@ -34,7 +38,7 @@
 }
 .night-time .img-thumbnail {
   /* border: 1px solid; */
-  background-color: #f4f4f4;
+  background-color: transparent;
   padding: 0px 16px;
 }
 .night-time .day-night-mode-toggle {
